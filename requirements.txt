@@ -6,3 +6,10 @@ python-dotenv
 alembic
 pytest
 httpx
+requests
+urllib3
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+bcrypt==4.0.1
+google-generativeai

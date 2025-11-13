@@ -1,8 +1,33 @@
 # Virtual env
 .venv/
+venv/
+env/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment variables
 .env
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Database
 *.sqlite3
+*.db
+
+# Docker
+*.log
+
+# Python
+*.egg-info/
+dist/
+build/
